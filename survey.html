@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey.css">
+    <title>Survey</title>
+</head>
+<body>
+    <header>
+        <h1>Clarusway Survey Form</h1>
+        <p>Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <form action="result.html">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required></input>
+            <label for="sname">Surname</label>
+            <input type="text" name="sname" id="sname" placeholder="Enter your surname" required>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="user@clarusway.com" required>
+        </div>
+        <div>
+            <p>Which option best describes your current role?</p>
+            <select name="select" id="select">
+                <option disabled selected>Select current role</option>
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="teacher">Teacher</option>
+                <option value="teacher">Teacher</option>
+                <option value="teacher">Teacher</option>
+                <option value="teacher">Teacher</option>
+            </select>
+        </div>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
